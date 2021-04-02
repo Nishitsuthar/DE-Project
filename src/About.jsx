@@ -1,9 +1,18 @@
 import React from "react";
+import Common from "./Common";
+import web from "../src/images/home_page.svg";
 
 const About = () => {
   return (
     <>
-      <h1>Welcome about Page</h1>
+      <Common
+        title="This is Our First StartUp"
+        subtitle="You Can Direct Ping Us"
+        heading="We are growing Community"
+        btn="Conatact Us"
+        visit="/contact"
+        img={web}
+      />
     </>
   );
 };
