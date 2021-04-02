@@ -1,6 +1,6 @@
 import React from "react";
 import Common from "./Common";
-import web from "../src/images/home_page.svg";
+import web from "../src/images/about_page.jpg";
 
 const About = () => {
   return (

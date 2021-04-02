@@ -1,8 +1,8 @@
-import acc from "../src/images/img_1.png";
-import loan from "../src/images/img_2.png";
-import kyc from "../src/images/img_3.png";
+import acc from "../src/images/img_1.jpg";
+import loan from "../src/images/img_2.jpg";
+import kyc from "../src/images/img_3.jpg";
 import cscore from "../src/images/img_4.jpg";
-import hloan from "../src/images/img_5.jpeg";
+import hloan from "../src/images/img_5.jpg";
 import vloan from "../src/images/img_6.jpg";
 
 const Sdata = [
@@ -12,7 +12,7 @@ const Sdata = [
   },
   {
     imgsrc: loan,
-    title: "Online Loan",
+    title: "Online Personal Loan",
   },
   {
     imgsrc: kyc,

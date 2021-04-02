@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import web from "../src/images/img_1.png";
 
 const Card = (props) => {
   return (
@@ -15,7 +14,7 @@ const Card = (props) => {
               bulk of the card's content.
             </p>
             <NavLink to="#" className="btn btn-primary">
-              Go somewhere
+              Apply Now
             </NavLink>
           </div>
         </div>

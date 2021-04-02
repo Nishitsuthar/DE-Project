@@ -6,7 +6,7 @@ import Sdata from "./Sdata";
 const Service = () => {
   return (
     <>
-      <div className="text-center">
+      <div className="text-center mb-5">
         <h1>Our Services</h1>
       </div>
       <div className="container-fluid mb-5">
