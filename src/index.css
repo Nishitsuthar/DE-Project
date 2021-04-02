@@ -108,3 +108,36 @@
     transform: translateY(-10px);
   }
 }
+
+/* ================styling for contact form ===============*/
+.contact_div {
+  width: 40%;
+  height: 73vh;
+}
+
+/*=================== resposive code ============*/
+@media (min-width: 991px) {
+  #header {
+    height: 80vh;
+    text-align: center;
+  }
+  #header .header-img {
+    text-align: center;
+  }
+  #header .header-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  #header {
+    margin-top: 20px;
+  }
+  #header h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #header .header-img img {
+    width: 70%;
+  }
+}
